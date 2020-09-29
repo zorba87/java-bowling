@@ -32,6 +32,7 @@ public class QuestionTest {
 
         }).isInstanceOf(CannotDeleteException.class);
     }
+/*
 
     @Test
     void recordDeleteHistory_삭제기록테스트(){
@@ -51,4 +52,5 @@ public class QuestionTest {
         assertThat(del2.equals(del3)).isTrue();
 
     }
+*/
 }
